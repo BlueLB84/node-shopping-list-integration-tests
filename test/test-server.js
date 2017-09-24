@@ -180,6 +180,17 @@ describe('Recipes', function() {
       });
   });
 
+  // it('should raise error if an arg is missing', function() {
+  //   const badRecipe = {name: 'banana pancakes'};
+  //   return chai.request(app)
+  //     .post('/recipes')
+  //     .send(badRecipe)
+  //     .then(function(res) {
+  //       res.should.have.status(400);
+  //     });
+  // });
+
+
   it('should update recipe on PUT', function() {
     const updateData = {
       name: 'chocolate chip banana pancakes',
