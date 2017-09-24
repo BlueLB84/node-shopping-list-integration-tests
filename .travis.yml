@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: aNC215XelopipHalF54Mo20UQWOw1opgicAubbVoZ7JgTfLkFSR5cavKBXTLNWc4pgQ4U6g2Tmdfpm8uyTthm9BgsFV3ahMEvOei4DIeaxd2/HCTe9hu1ksp7EuQZv9a6Naa7Ee1RQiinazTEVQrxy8nM73cAjq8KAB3RMh0vCHNeg6QnYDekmXO8cpi1i2piqftuo5PoWAjgd4iIAlWt7/21uGbPrJBeIiJ70OVlt1NwVk+z9l195YpK2Me4pKRAUB5x869v2A7JcTQD6bFYthRfsw+cK7o/0LcXJx7UrV7s8PoPq91RVXzI2TKNMV+Xv+7Hm9/igQn+9rjE+3ElnLkvYhL/UgOmfAxs7zF/I1UKW9M+mueSoncHs+vVeDnoJr6t/UP4Bf+o/zCKAf/9BAMrtufvPo2NZPdOUN8n8wng8D74H1DRFL7ah9W1Vab3p1RqYlKBhNLT50htzw00wSLHnM8JOLVcvSrbs9xTXBUQuQK5TxWhyU/8vPnl1L1bo25mwa5YvydUe09hefhdE1F8Z/phaYeE6fgezi6tZFt+xVYej16LLY20OT85i8NCI10iWbPk5PRUL9A3XE3v3DIs/tO+baJSg2YiLfN08luALzwktqMIOUlpxYLYUPrrylgMHhWU4e0MWIcvX9Td57xlK+juTCKtLcvIyVil+0=
+  app: mysterious-waters-75065
+  on:
+    repo: BlueLB84/node-shopping-list-integration-tests
